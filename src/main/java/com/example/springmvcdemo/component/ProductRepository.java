@@ -54,4 +54,5 @@ public class ProductRepository {
     // удалить продукт по id
     public void deleteById(Long id) {
         productMap.remove(id);
-    }}
+    }
+}
